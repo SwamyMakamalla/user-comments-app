@@ -1,0 +1,78 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+}
+.first-letter {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 5px 10px;
+  color: #ffffff;
+  text-align: center;
+}
+.name-of-commentator {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 17px;
+  color: #475569;
+  padding-left: 10px;
+}
+.comment-by-user {
+  color: #64748b;
+  font-family: 'roboto';
+  font-size: 13px;
+  padding-left: 10px;
+}
+.delete-button {
+  border: 0px solid transparent;
+  background-color: inherit;
+  cursor: pointer;
+}
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: stretch;
+}
+.liked-image {
+  cursor: pointer;
+}
+.time {
+  color: #cbd2d9;
+  font-size: 12px;
+  font-family: 'roboto';
+  padding-left: 10px;
+}
